@@ -1,5 +1,5 @@
 {
-  "name": "es6-exercises",
+  "name": "es6-playground",
   "version": "1.0.0",
   "description": "This is an app to help the user explore ES6 features",
   "main": "index.js",

@@ -5,7 +5,6 @@ describe('Hello world', function () {
   });
 });
 
-
 function helloWorld() {
   return 'Hello world!';
 }

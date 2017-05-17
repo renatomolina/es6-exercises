@@ -1,0 +1,25 @@
+{
+  "name": "es6-exercises",
+  "version": "1.0.0",
+  "description": "This is an app to help the user explore ES6 features",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "lint": "jshint spec/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/renatomolina/es6-exercises.git"
+  },
+  "author": "Renato Molina Toth",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/renatomolina/es6-exercises/issues"
+  },
+  "homepage": "https://github.com/renatomolina/es6-exercises#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "jasmine": "^2.6.0",
+    "jshint": "^2.9.4"
+  }
+}

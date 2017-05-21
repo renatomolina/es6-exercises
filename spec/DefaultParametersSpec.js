@@ -1,5 +1,5 @@
 describe('Default Parameters', function () {
-  it('consider the default parameter', function () {
+  it('uses a default parameter', function () {
     let value = doSomething();
     expect(value).toEqual("default");
   });

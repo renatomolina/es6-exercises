@@ -5,7 +5,7 @@ describe('Variables', function () {
     expect(value).toEqual(3);
   });
 
-  it('let keyword declares a score variable', function () {
+  it('let keyword declares a scope variable', function () {
     let value = 1;
     if(true) {
       let value = 3;
@@ -13,6 +13,5 @@ describe('Variables', function () {
     }
     expect(value).not.toEqual(3);
   });
-
 });
 

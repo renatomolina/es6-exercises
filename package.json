@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "lint": "jshint spec/*.js"
+    "lint": "jshint spec/*.js",
+    "clean": "rimraf lib/*"
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@
   "description": "This is an app to help the user explore ES6 features",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine",
+    "test": "babel-node spec/run.js",
     "lint": "jshint spec/*.js",
     "clean": "rimraf lib/*"
   },
@@ -19,11 +19,15 @@
   },
   "homepage": "https://github.com/renatomolina/es6-exercises#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^3.19.0",
     "jasmine": "^2.6.0",
     "jshint": "^2.9.4"
   },
   "dependencies": {
+    "babel-preset-node6": "^11.0.0",
     "lodash": "^4.17.4"
   }
 }

@@ -1,4 +1,5 @@
-var _ = require('lodash');
+//var _ = require('lodash');
+import _ from 'lodash';
 
 describe('Sum function', function () {
   it('let my own curry func to return the sum', function () {

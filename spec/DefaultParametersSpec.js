@@ -5,7 +5,5 @@ describe('Default Parameters', function () {
   });
 });
 
-let doSomething = function(name="default") {
-  return name;
-};
+let doSomething = (name = "default") => name;
 

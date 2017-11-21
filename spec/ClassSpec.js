@@ -8,15 +8,15 @@ describe('Class', function () {
 });
 
 class Person {
-    constructor(name){
+    constructor(name) {
        this.name = name;
     }
 
-    doWork(){
+    doWork() {
         return "complete";
     }
 
-    set name(name){
+    set name(name) {
         this._name = name;
     }
 
